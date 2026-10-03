@@ -1,0 +1,21 @@
+{
+  "AlarmName": "EC2-High-CPU-monitoring-server1",
+  "AlarmDescription": "Alert when EC2 CPU utilization exceeds 70 percent",
+  "ActionsEnabled": true,
+  "MetricName": "CPUUtilization",
+  "Namespace": "AWS/EC2",
+  "Statistic": "Average",
+  "Dimensions": [
+    {
+      "Name": "InstanceId",
+      "Value": "i-0eabdff35559699a6"
+    }
+  ],
+  "Period": 300,
+  "EvaluationPeriods": 1,
+  "Threshold": 70,
+  "ComparisonOperator": "GreaterThanThreshold",
+  "AlarmActions": [
+    "arn:aws:sns:ap-south-1:104360117424:monitoring-alerts"
+  ]
+}
