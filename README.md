@@ -142,16 +142,6 @@ aws-infrastructure-monitoring-alerting/
 ├── grafana/
 │   └── dashboard/
 │
-├── screenshots/
-│   ├── 01-ec2-instance.png
-│   ├── 02-docker-containers.png
-│   ├── 03-prometheus-targets.png
-│   ├── 04-prometheus-cpu-metric.png
-│   ├── 05-grafana-dashboard.png
-│   ├── 06-cloudwatch-cpu.png
-│   ├── 07-cloudwatch-alarm.png
-│   └── 08-sns-email-alert.png
-│
 └── README.md
 ```
 
